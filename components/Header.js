@@ -4,6 +4,7 @@ import Nav from './Nav';
 import Router from 'next/router';
 import NProgress from 'nprogress';
 
+// NProgress to hook into next.js router events
 
 Router.onRouteChangeStart = () => {
   NProgress.start();
