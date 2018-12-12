@@ -137,7 +137,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 
-
+ // Fixing Styled components Flicker on server render. You can now reload the page with out a flicker effect.
 
 var MyDocument =
 /*#__PURE__*/
@@ -156,31 +156,31 @@ function (_Document) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("html", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 16
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Head"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 17
         },
         __self: this
       }, this.props.styleTags), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 18
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 19
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 20
         },
         __self: this
       })));
@@ -195,7 +195,7 @@ function (_Document) {
           return sheet.collectStyles(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, _extends({}, props, {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 8
+              lineNumber: 9
             },
             __self: this
           })));
